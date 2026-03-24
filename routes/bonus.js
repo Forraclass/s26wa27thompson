@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
         x = Math.random() * 100;
     }
     let y = Math.cos(x)
-    res.send(`Math.cos() aplied to ${x} is ${y}`);
+    res.send(`Math.cos applied to ${x} is ${y}`);
 });
 
 module.exports = router;
